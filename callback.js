@@ -5,6 +5,7 @@ animals.forEach(function (animal, index){
     console.log(animal, index)
 })
 
+
 animals.forEach((animal, index) =>{
     console.log(animal, index)
 })

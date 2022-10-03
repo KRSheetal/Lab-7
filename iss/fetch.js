@@ -51,6 +51,7 @@ function iss(attempts) {
              let now = Date()
             dateTimeUpdateFetched.innerHTML= `This data was fetched at ${now}`
 
+
     }).catch((err) => {
         attempts = attempts -1 //subtract 1 from number of attempts
         console.log('ERROR!', err)
