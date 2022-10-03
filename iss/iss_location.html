@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Where is the ISS?</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css"
+          integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+          crossorigin=""/>
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"
+            integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s="
+            crossorigin=""></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script async defer src="fetch.js"></script>
+</head>
+<body>
+
+  <h1>Where is the ISS?</h1>
+  <div>
+      <p id ="date-time"></p>
+    <p>ISS Latitude:<span id="iss-lat"></span></p>
+    <p>ISS Longitude:<span id="iss-long"></span></p>
+  </div>
+
+    <div id="iss-map"></div>
+    <p>Satellite icons created by Freepik - Flaticon</p>
+</body>
+</html>
